@@ -6,5 +6,6 @@ docker run -d \
     -p 8843:8843 \
     -p 8880:8880 \
     -p 3478:3478/udp \
+    -p 10001:10001/udp \
     --name unifi-controller \
     soulmanos/rpi-docker-unificontroller
